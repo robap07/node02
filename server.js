@@ -28,7 +28,7 @@ async function printScreen() {
 
     // Acessa a URL desejada
     await page.goto('https://previsao.inmet.gov.br/3101508');
-    console.log('Abriu o navegador e acessou a Netflix');
+    console.log('Abriu o navegador e acessou a Netfli');
 
     // Define o caminho para salvar a imagem
     const timestamp = Date.now();
