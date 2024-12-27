@@ -27,7 +27,7 @@ async function printScreen() {
     const page = await browser.newPage();
 
     // Acessa a URL desejada
-    await page.goto('https://www.netflix.com/login');
+    await page.goto('https://previsao.inmet.gov.br/3101508');
     console.log('Abriu o navegador e acessou a Netflix');
 
     // Define o caminho para salvar a imagem
@@ -65,5 +65,5 @@ app.get('/', async (req, res) => {
 
 // Inicia o servidor
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
+  console.log(`Servidor rodando em Porta ${PORT}`);
 });
